@@ -1,0 +1,436 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+ }
+
+a img {
+	box-shadow: 0 0 0 0px !important;
+}
+
+iframe {
+ max-width: none !important;
+}
+
+.sncFacebookLogin {
+	font-weight: bold;
+	display: none;
+}
+
+.sncFacebookLogin input {
+	background-color: white;
+	border: 1px solid rgb(204, 204, 204);
+}
+
+.sncInstagramLogin {
+	font-weight: bold;
+//	display: block;
+	display: none;
+}
+
+.sncInstagramLogin input {
+	background-color: white;
+	border: 1px solid rgb(204, 204, 204);
+}
+
+.sncTwitterLogin {
+	font-weight: bold;
+	display: block;
+}
+
+.sncTwitterLogin input {
+	background-color: white;
+	border: 1px solid rgb(204, 204, 204);
+}
+
+.sncItem {
+	width:	240px;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	float:	left;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #CCCCCC;
+	color: #666666;
+//	overflow: hidden;
+}
+
+.sncPopUpContainer {
+	width: auto;
+	height: auto;
+//	display: none;
+}
+
+.sncPopUpPostItem {
+	width:	240px;
+	padding: 1px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #CCCCCC;
+	color: #666666;
+}
+
+.sncPopUpIndivPostItem {
+	width:	100%;
+	padding: 1px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #CCCCCC;
+	color: #666666;
+	overflow: hidden;
+}
+
+.sncPopUpProfileItem {
+	width:	286px;
+	padding: 1px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #CCCCCC;
+	color: #666666;
+}
+
+.sncItem table, .sncPopUpPostItem table, .sncPopUpIndivPostItem table, .sncPopUpProfileItem table, .sncBody table {
+	border-width: 0px;
+	margin: 0px !important;
+	border-collapse: collapse;
+}
+
+.sncItem td, .sncPopUpPostItem td, .sncPopUpIndivPostItem td, .sncPopUpProfileItem td {
+	vertical-align: middle !important;
+	border: 0px !important;
+	padding: 0px !important;
+}
+
+.sncHeader a {
+	text-decoration: none !important;
+}
+
+.sncHeader table {
+	border: 0px !important;	
+}
+
+.sncHeader td {
+	padding: 1px !important;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px !important;
+	text-align: center !important;
+	background-color: #b2b2b2;
+	color: #000000;
+}
+
+.sncHeaderTitle a {
+	text-decoration: none !important;	
+}
+
+.sncSubHeader {
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 13px !important;
+}
+
+.sncSubHeader a {
+	text-decoration: underline !important;
+}
+
+.sncBody td {
+	padding: 3px !important;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	background-color: #e5e5e5;
+	text-align: center !important;
+}
+
+.sncBody a, .sncFooter a {
+	text-decoration: underline;
+}
+
+.sncBodyImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.sncBodyLeft td {
+	text-align: left !important;
+	background-color: inherit;
+}
+
+.sncBodyCenter td {
+	text-align: center !important;
+	background-color: inherit;
+}
+
+.sncBodyRight td {
+	text-align: right !important;
+	background-color: inherit;
+}
+
+.sncFooter table tr {
+	border: 0px !important;
+}
+
+.sncFooter td {
+	background-color: #cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 1px !important;
+}
+
+.sncFooterLeft {
+	text-align: left;
+}
+
+.sncFooterCenter {
+	text-align: center;
+}
+
+.sncFooterRight {
+	text-align: right;
+}
+
+.fb-like {
+	float: left;
+	padding-left: 1px !important;
+}
+
+.fb-share-button {
+	float: right;
+	padding-right: 1px !important;
+	width: 61px; 
+	height: 21px; 
+	background-repeat: no-repeat; 
+}
+
+.sncLine {
+	height: 1px;
+	background-color: #666666 !important;
+}
+
+.sncSourceLink {
+	color: #FFFFFF;
+}
+
+.sncTimestamp {
+	display: none;
+}
+
+.sncViewComments {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center !important;
+	white-space: nowrap;
+}
+
+.sncViewPost {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center !important;
+}
+
+.sncCommentsHeader td {
+	background-color: #CCCCCC;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+//	font-weight: bold;
+	text-align: center !important;
+}
+
+.sncComments td {
+	background-color: #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+//	margin-right: 20px;
+	vertical-align: top !important;
+	padding-left: 3px !important;
+	padding-right: 5px !important;
+}
+
+.sncCommentsName {
+	background-color: #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.sncCommentsSmall {
+	background-color: #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.sncCommentsLine td {
+	height: 1px;
+	background: #666666 !important;
+}
+
+/*
+.retweet, .favorite {
+	display: inline-block;
+	font-family: georgia,serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	padding: 1px 5px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	background-color: #ddd;
+	background: linear-gradient(to bottom, #f6f6f6, #ddd);
+}
+*/
+
+#sncComments {
+   background-image: url('../images/instagram/comment.png');
+   width: 16px;
+   height: 16px;
+   float: right;
+}
+
+#sncCommented {
+   background-image: url('../images/instagram/comment_on.png');
+   width: 16px;
+   height: 16px;
+   float: right;
+}
+
+#sncFavorite {
+   background-image: url('../images/twitter/favorite.png');
+   width: 16px;
+   height: 16px;
+   float: left;
+}
+
+#sncFavorite:hover {
+   background-image: url('../images/twitter/favorite_hover.png');
+}
+
+#sncFavorited {
+   background-image: url('../images/twitter/favorite_on.png');
+   width: 16px;
+   height: 16px;
+   float: left;
+}
+
+#sncLikes {
+   background-image: url('../images/instagram/like.png');
+   width: 16px;
+   height: 16px;
+   float: left;
+}
+
+#sncLiked {
+   background-image: url('../images/instagram/like_on.png');
+   width: 16px;
+   height: 16px;
+   float: left;
+}
+
+#sncReply {
+   background-image: url('../images/twitter/reply.png');
+   width: 16px;
+   height: 16px;
+   margin: 0 auto;
+}
+
+#sncReply:hover {
+   background-image: url('../images/twitter/reply_hover.png');
+}
+
+#sncRetweet {
+   background-image: url('../images/twitter/retweet.png');
+   width: 19px;
+   height: 16px;
+   float: right;
+}
+
+#sncRetweet:hover {
+   background-image: url('../images/twitter/retweet_hover.png');
+}
+
+#sncRetweeted {
+   background-image: url('../images/twitter/retweet_on.png');
+   width: 19px;
+   height: 16px;
+   float: right;
+}
+
+/*
+.retweet:hover, .favorite:hover {
+	opacity:0.9
+}
+*/
+
+#sncIsotope, #sncPopUpContainer {
+    height: auto;
+    margin: 0 auto;
+    padding-left: 10px;
+    position: relative;
+}
+.mfp-close {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  color: #FFFFFF !important; 
+}
+.magnific-profile-popup {
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: auto;
+	max-width: 286px;
+	margin: 0px auto;
+}
+.magnific-post-popup {
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: auto;
+	margin: 0px auto;
+}
+.magnific-items-popup {
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: auto;
+	margin: 0px auto;
+}
+.magnific-popup-title {
+	font-weight: bold;
+	color: #FFFFFF; 
+}
+.magnific-inline-link {}
+
+/*  TABLET  : 1024px */
+@media only screen and ( max-width: 1024px ) {
+}
+
+/* TABLET  : 768px */
+@media only screen and (max-width: 985px) and (min-width: 768px) {
+}
+
+/* Phone  : 480px */
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+}
+
+/* Phone  : 320px */
+@media only screen and (max-width: 479px) {
+}
